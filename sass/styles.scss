@@ -1,0 +1,81 @@
+$primary:#5265E1;
+
+$danger:#FA5959;
+
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+min-height: 380px;
+}
+
+.row.align-items{
+    display:flex;
+    flex:wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+  
+   
+}
+
+.text-center{
+    min-height: 50px;
+}
+.bookmark-buttons{
+    display:flex;
+    justify-content:center;
+}
+.container-centrado{
+  min-height:300px;
+}
+.container-download{
+    min-height: 300px;
+}
+.oneclick-buttons{
+    display:flex;
+    justify-content:center;
+}
+.card{
+    height:600x;
+    margin-left:70px;
+}
+.row-card{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
+}
+
+.card-img-top{
+    min-height:auto;
+}
+.fondo-azul{
+width:1000px;
+height:450px;
+border-radius:100%;
+}
+.row.align-items-center{
+    display:flex;
+    flex-direction: row;
+
+}
+.nav-tabs{ 
+    justify-content: center;  
+ }
+.nav-link{
+    font-style: black;
+}
+.accordion{
+    display:flex;
+    justify-content: center;
+   min-width: 500px;
+  
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
+
+//$theme-colors: (
+//$primary:#5265E1,
+//$secondary:#FA5959,
+//);
